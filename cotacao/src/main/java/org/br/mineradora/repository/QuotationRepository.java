@@ -6,4 +6,5 @@ import org.br.mineradora.entity.QuotationEntity;
 
 @ApplicationScoped
 public class QuotationRepository implements PanacheRepository<QuotationEntity> {
+
 }
