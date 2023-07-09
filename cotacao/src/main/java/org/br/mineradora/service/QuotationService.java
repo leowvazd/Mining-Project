@@ -38,6 +38,8 @@ public class QuotationService {
                             .currencyPrice(new BigDecimal(currencyPriceInfo.getUSDBRL().getBid()))
                             .date(new Date())
                             .build());
+        } else {
+            var x;
         }
 
     }
